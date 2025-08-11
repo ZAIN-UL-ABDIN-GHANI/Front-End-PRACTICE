@@ -31,9 +31,21 @@
         <li><a href="#mission">Mission</a></li>
         <li><a href="#internship">Internship Program</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li class="mobile-theme-toggle">
+          <button class="theme-toggle mobile-only" id="theme-toggle-mobile" aria-label="Toggle theme">
+            <div class="theme-toggle-content">
+              <i class="fas fa-moon theme-icon" id="theme-icon"></i>
+         
+            </div>
+            <div class="theme-toggle-slider"></div>
+          </button>
+        </li>
       </ul>
 
       <div class="nav-actions">
+        <button class="theme-toggle desktop-only" id="theme-toggle" aria-label="Toggle theme">
+          <div class="theme-toggle-slider"></div>
+        </button>
         <button class="cta" onclick="scrollToSection('#internship')">Apply Now</button>
         <button class="hamburger" id="hamburger" aria-label="menu">
           <span></span><span></span><span></span>
@@ -78,12 +90,14 @@
           placeholder="Search services (type here)..."
           aria-label="search services"
         />
-        <div class="filters">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="development">Development</button>
-          <button class="filter-btn" data-filter="design">Design</button>
-          <button class="filter-btn" data-filter="business">Business</button>
-          <button class="filter-btn" data-filter="data">Data</button>
+        <div class="mobile-filter-container">
+          <div class="filters" id="filters-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+            <button class="filter-btn" data-filter="data">Data</button>
+          </div>
         </div>
       </div>
 
@@ -176,7 +190,7 @@
   <section class="internship-section" id="internship">
     <div class="container">
       <div class="section-head">
-        <h2>We are Hiring Interns  - Internship 2025 Program</h2>
+        <h2>We are Hiring Interns - Internship 2025 Program</h2>
         <p>
           Join Apexcify Technologys for our Remote Internship Program and gain real-world experience while working with industry experts.
         </p>
@@ -247,18 +261,20 @@
     <div class="container footer-grid">
       <div>
         <h3>Apexcify Technologys</h3>
-       
       </div>
 
       <div>
-        <h4>Contact</h4>
         <p>Email: <a href="mailto:apexcifytechnologys@gmail.com">apexcifytechnologys@gmail.com</a></p>
-     <p>LinkedIn: <a href="https://www.linkedin.com/company/apexcifytechnologys/" target="_blank" rel="noopener noreferrer">Apexcify Technologys</a></p>
-
+        <p>LinkedIn: <a href="https://www.linkedin.com/company/apexcifytechnologys/" target="_blank" rel="noopener noreferrer">Apexcify Technologys</a></p>
       </div>
     </div>
     <div class="copyright">© <span id="year"></span> Apexcify Technologys — All Rights Reserved</div>
   </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
   <!-- JS -->
   <script src="script.js"></script>

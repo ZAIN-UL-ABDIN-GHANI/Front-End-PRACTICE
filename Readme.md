@@ -1,15 +1,15 @@
-# Apexcify Technologys — Frontend Development Internship
+# Frontend Development practices
 
 **Name:** Zain Ul Abdin Ghani  
-**Student ID:** AT/132/2000  
+
 
 ## 📌 Overview
-This repository contains all completed tasks for my **Frontend Development Internship** at **Apexcify Technologys**.  
+This repository contains all completed tasks for my **Frontend Development practices**.  
 It showcases my work with HTML, CSS, and JavaScript, focusing on building responsive, interactive, and visually appealing websites.
 
-## 🖥 Internship Tasks
+## 🖥  Tasks
 
-### ✅ Task 1 — Apexcify Technologys Website
+### ✅ Task 1  Website
 - Responsive HTML & CSS layout  
 - JavaScript navigation (next/prev buttons, lightbox view)  
 - Hover effects, smooth transitions, animations  
@@ -32,14 +32,6 @@ It showcases my work with HTML, CSS, and JavaScript, focusing on building respon
 - JavaScript navigation for products  
 - Filters and animations  
 
-## 📂 Repository Structure
-
-ApexcifyTechnologys_front end intern/
-│── Task1_ApexcifyWebsite/
-│── Task2_Calculator/
-│── Task3_Portfolio/
-│── Task4_ProductListing/
-│── README.md
 
 
 ## 🏆 Internship Perks

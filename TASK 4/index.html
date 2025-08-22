@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYNSHOP - Premium Product Marketplace</title>
+    <meta name="description" content="Discover amazing products at ZYNSHOP. Electronics, Fashion, Shoes, Perfumes, Cars and more with Pinterest-style browsing experience.">
+    <meta name="keywords" content="ZYNSHOP, electronics, fashion, shoes, perfumes, cars, laptops, PCs, online shopping">
+    <meta name="author" content="ZYNSHOP">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo-section">
+                    <a href="#" class="logo">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>ZYN<strong>SHOP</strong></span>
+                    </a>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="main-nav">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                    
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+              
+                
+                <!-- Header Actions -->
+                <div class="header-actions">
+                    <button class="action-btn" id="wishlistBtn" title="Wishlist">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge">0</span>
+                    </button>
+                    <button class="action-btn" id="cartBtn" title="Shopping Cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">0</span>
+                    </button>
+                    <button class="action-btn theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-content">
+                <ul class="mobile-nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-search">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                       
+                
+                        ZYNSHOP
+                    </h1>
+                    <p class="hero-description">
+                        Explore our curated collection of premium electronics, fashion, cars, and more. 
+                        Experience shopping like never before with our Pinterest-style product discovery.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Products</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Brands</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary">
+                            <i class="fas fa-shopping-bag"></i>
+                            Shop Now
+                        </a>
+                        <a href="#categories" class="btn btn-secondary">
+                            <i class="fas fa-th-large"></i>
+                            Browse Categories
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-image-container">
+                        <div class="floating-card card-1">
+                            <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=200&h=200&fit=crop" alt="iPhone">
+                            <div class="card-info">
+                                <h4>iPhone 15 Pro</h4>
+                                <p>$1,199</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&h=200&fit=crop" alt="Shoes">
+                            <div class="card-info">
+                                <h4>Nike Air Max</h4>
+                                <p>$150</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=200&h=200&fit=crop" alt="Laptop">
+                            <div class="card-info">
+                                <h4>MacBook Pro</h4>
+                                <p>$2,499</p>
+                            </div>
+                        </div>
+                        <div class="hero-main-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsrZYxr_K2Dt9yT1uLCm-Q96iyj5bvajHFtg&s" alt="Shopping Experience">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+                <p class="section-description">Discover our handpicked selection of premium products</p>
+            </div>
+            
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Products</button>
+                <button class="filter-tab" data-filter="electronics">Electronics</button>
+                <button class="filter-tab" data-filter="laptops">Laptops</button>
+                <button class="filter-tab" data-filter="pcs">PCs</button>
+                <button class="filter-tab" data-filter="shoes">Shoes</button>
+                <button class="filter-tab" data-filter="perfumes">Perfumes</button>
+                <button class="filter-tab" data-filter="cars">Cars</button>
+                <button class="filter-tab" data-filter="fashion">Fashion</button>
+                <button class="filter-tab" data-filter="home">Home</button>
+                  
+                <!-- Search Bar -->
+             
+            </div>
+               <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search products, brands, categories...">
+                        <button class="search-btn" id="searchBtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            <!-- Products Grid -->
+            <div class="products-container">
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be dynamically loaded here -->
+                </div>
+                
+                <!-- Loading Spinner -->
+                <div class="loading-spinner" id="loadingSpinner">
+                    <div class="spinner"></div>
+                    <p>Loading amazing products...</p>
+                </div>
+                
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button class="btn btn-outline" id="loadMoreBtn">
+                        <i class="fas fa-plus"></i>
+                        Load More Products
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose ZYNSHOP?</h2>
+                    <p class="section-description">
+                        We're more than just an online store. We're your trusted partner in finding 
+                        the perfect products that match your lifestyle and preferences.
+                    </p>
+                    
+                    <div class="features-grid">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Secure Shopping</h3>
+                            <p>Advanced encryption and secure payment processing</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                            <h3>Fast Delivery</h3>
+                            <p>Quick and reliable shipping to your doorstep</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <h3>Premium Quality</h3>
+                            <p>Carefully curated products from trusted brands</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3>24/7 Support</h3>
+                            <p>Round-the-clock customer service assistance</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <h3>99.9%</h3>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>24H</h3>
+                            <p>Average Delivery Time</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>500+</h3>
+                            <p>Trusted Brands</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Footer -->
+<footer class="footer">
+  <div class="footer-main">
+    <div class="container footer-grid">
+      
+      <!-- Brand & Social -->
+      <div class="footer-col footer-brand">
+        <div class="logo">
+          <i class="fas fa-shopping-bag"></i>
+          <span>ZYN<strong>SHOP</strong></span>
+        </div>
+        <p>Your premier destination for discovering amazing products across all categories. Experience the future of online shopping with ZYNSHOP.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Categories -->
+      <div class="footer-col">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Perfumes</a></li>
+          <li><a href="#">Cars</a></li>
+        </ul>
+      </div>
+
+      <!-- Customer Service -->
+      <div class="footer-col">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Track Order</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-col footer-newsletter">
+        <h3>Stay Updated</h3>
+        <p>Subscribe to get updates about new products and exclusive offers.</p>
+        <form>
+          <div class="newsletter-box">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </form>
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+          <p><i class="fas fa-envelope"></i> hello@zynshop.com</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2024 ZYNSHOP. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- JavaScript -->
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

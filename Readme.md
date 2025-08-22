@@ -33,11 +33,3 @@ It showcases my work with HTML, CSS, and JavaScript, focusing on building respon
 - Filters and animations  
 
 
-
-## 🏆 Internship Perks
-- Internship Offer Letter  
-- Completion Certificate  
-- Unique ID Certificate  
-- Letter of Recommendation  
-- Resume Building Support  
-- Placement Opportunities  
